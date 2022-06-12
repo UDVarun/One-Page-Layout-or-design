@@ -1,0 +1,54 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: hsl(0, 0%, 0%);
+}
+
+img {
+    height: 80%;
+    width: 100%;
+    size-adjust: auto;
+}
+
+.container {
+    position: relative;
+    max-width: 100%;
+    margin: 0%;
+    display: block;
+    padding: 0%;
+}
+
+.container .content {
+    position: absolute;
+    top: 0%;
+    height: auto;
+    color: aliceblue;
+    width: 100%;
+    padding: 0%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 37px;
+    text-decoration: none;
+
+
+}
+
+li a:hover {
+    background-color: black;
+}
